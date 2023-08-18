@@ -14,7 +14,7 @@ export default function SuccessPage() {
                 {/* Confetti image with specified dimensions */}
                     <Image src={confetti} height={200} width={200} alt="confetti" className="confetti"/>
 
-                    <h1>You're in!</h1>
+                    <h1>You&apos;re in!</h1>
                     <p>You can now access everythin on this site. <br/> Ready to get started?</p>
 
                     {/* Link to the login page, styled as a large button */}
