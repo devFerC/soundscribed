@@ -1,4 +1,4 @@
-# Build a SaaS app with React
+# Audio-Book Subsctiption app
 
 ## Technologies Used
 
@@ -48,6 +48,3 @@
 
 - The logo font is "Bakbak One", a free Google font
 - All the images are included in the /assets folder in /public
-- Along with each image is its original .psd (Photoshop) file
-- Seed product data using the Supabase SQL editor from the seed.sql file (in this project)
-- Use VSCode to instantly install the recommended extensions for this project (listed in the .vscode folder in this project)
