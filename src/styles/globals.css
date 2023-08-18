@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 *,
 :after,
 :before {
@@ -8,7 +12,7 @@ html,
 body {
   margin: 0;
   line-height: inherit;
-  background: black;
+  background: #FCA498;
 }
 a {
   color: inherit;
@@ -67,14 +71,14 @@ img {
   color: #000;
 }
 .bg-navy {
-  background-color: #1d2a91;
+  background-color: #0e3633;
 }
 .bg-teal {
   background-color: #2eb3a9;
   color: #000;
 }
 .bg-offwhite {
-  background: #f4f4f0;
+  background: #fedbd6;
 }
 
 .line-break {
@@ -202,6 +206,8 @@ h4 {
   padding: 0;
 }
 .large-button-text {
+  box-shadow: 6px 6px 0 0 #ffffff;
+  transform: translate(-6px, -6px);
   position: relative;
   z-index: 1;
   padding: 1.1rem 2rem 1.2rem;
@@ -506,7 +512,7 @@ h1 {
   color: #fff;
 }
 .nav-link:hover {
-  background-color: #ffab29;
+  background-color: #ca837a;
   color: #000;
 }
 .nav-link.white {
@@ -515,7 +521,7 @@ h1 {
   padding: 1.5rem 3vw;
 }
 .nav-link:hover {
-  background-color: #ffab29;
+  background-color: #ca837a;
 }
 .nav-container {
   width: 100%;
@@ -766,6 +772,8 @@ article.product > * {
 }
 
 .button {
+  box-shadow: 6px 6px 0 0 #000;
+  transform: translate(-6px, -6px);
   background: transparent;
   font-size: 1rem;
   line-height: 1.5;
